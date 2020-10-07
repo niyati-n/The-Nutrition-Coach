@@ -28,7 +28,7 @@ html, body {
     font-size: 16px;
     font-weight: 600;
     color:black;
-} 
+}
 #header{
     box-sizing: border-box;
     height: 100vh;
@@ -137,13 +137,13 @@ html, body {
 
 /*Footer*/
 .footer{
-    height: 50px;
     background-color: #7e8c06;
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 24px;
     justify-content: space-evenly;
     align-items: center;
+    height: 250px;
 }
 .footerText h2{
     top: -50px;
@@ -156,7 +156,7 @@ html, body {
     top: auto;
     transform: translate(-50% -50%) rotateY(180deg);
     display: flex;
-}    
+}
 .rating input{
     display: none;
 }
@@ -191,7 +191,7 @@ html, body {
 
 .rating label:hover::after,
 .rating input:checked~label::after,
-.rating input:checked~label::after 
+.rating input:checked~label::after
  {
     opacity: 0.8;
 }
@@ -217,7 +217,7 @@ html, body {
     }
     .rating {
         position: absolute;
-     
+
        display: flex;
 }
 .container .box {
@@ -261,7 +261,7 @@ html, body {
     margin-right: 15px;
     margin-bottom: 30px ;
 
-} 
+}
 
 .container .box {
     position:relative;
@@ -296,7 +296,7 @@ a:hover {
     top: 300%;
     transform: translate(-50% -50%) rotateY(180deg);
     display: flex;
-}   
+}
 table{
     box-sizing: border-box;
     font-size: 20px;
@@ -385,13 +385,13 @@ opacity: 0.65;
         background-size: cover;
         position: relative;
     opacity: 0.65;
-    }  
+    }
     .canText {
         margin-left: 30px;
        margin-top: 30px;
        margin-right: 20px;
        font-size: 18px;
-    }   
+    }
 
 .bone {
     background-image: url(img/bone.jpg);
@@ -403,7 +403,7 @@ opacity: 0.65;
         background-size: cover;
         position: relative;
     opacity: 0.65;
-}    
+}
 .bText{
     margin-left: 30px;
        margin-top: 30px;
@@ -420,7 +420,7 @@ opacity: 0.65;
         background-size: cover;
         position: relative;
     opacity: 0.65;
-}    
+}
 .dText {
     margin-left: 30px;
     margin-top: 30px;
@@ -431,7 +431,7 @@ opacity: 0.65;
     margin-left: 30px;
     margin-top: 30px;
     margin-right: 20px;
-    font-size: 18px; 
+    font-size: 18px;
 }
 #tips {
     align-items: center;
